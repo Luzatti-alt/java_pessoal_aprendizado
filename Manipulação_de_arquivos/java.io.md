@@ -1,3 +1,0 @@
-Java io
-Write
-etc
