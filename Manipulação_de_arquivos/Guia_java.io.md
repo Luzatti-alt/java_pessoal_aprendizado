@@ -1,6 +1,6 @@
 Java io
-local do arquivo fica entre aspas
-File arquivo(nome da variavel) = new File(local do arquivo)
+local do arquivo fica entre aspas \n
+File arquivo(nome da variavel) = new File(local do arquivo) \n
 .getAbsolutePath()//mostra o diretorio atual
 .delete 
 FileWriter novo_arquivo(nome da variavel) = new FileWriter(local do arquivo&tipo(txt/md/etc));
