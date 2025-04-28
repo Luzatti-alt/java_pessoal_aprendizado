@@ -24,7 +24,7 @@ public class Flow extends JFrame{
         principal_janela.add(new JButton("9"));
         //
         principal_janela.setBackground(new Color(52, 177, 235));
-        principal_janela.setTitle("nome");
+        principal_janela.setTitle("Flow layout");
         principal_janela.setSize(1000, 500);
         principal_janela.setVisible(true);
         principal_janela.setMinimumSize(new Dimension(100, 400));
