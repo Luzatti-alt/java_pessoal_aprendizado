@@ -24,7 +24,7 @@ public class Buttons extends JFrame implements ActionListener{
         principal_janela.add(botao);
         principal_janela.setLayout(null);
         principal_janela.setBackground(new Color(52, 177, 235));
-        principal_janela.setTitle("Panels");
+        principal_janela.setTitle("botões");
         principal_janela.setSize(1000, 500);
         principal_janela.setVisible(true);
         principal_janela.setMinimumSize(new Dimension(600, 400));
