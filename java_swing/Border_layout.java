@@ -62,7 +62,7 @@ public class Border_layout extends JFrame{
 		principal_janela.add(panel5,BorderLayout.CENTER);//escala proporionalmente
         
         principal_janela.setBackground(new Color(52, 177, 235));
-        principal_janela.setTitle("layouts");
+        principal_janela.setTitle("border layouts");
         principal_janela.setSize(1000, 500);
         principal_janela.setVisible(true);
         principal_janela.setMinimumSize(new Dimension(600, 400));
