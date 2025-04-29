@@ -32,7 +32,7 @@ public class Layers extends JFrame{
         //layers
         principal_janela.setLayout(null);
         principal_janela.setBackground(new Color(52, 177, 235));
-        principal_janela.setTitle("nome");
+        principal_janela.setTitle("layers");
         principal_janela.setSize(1000, 500);
         principal_janela.setVisible(true);
         principal_janela.setMinimumSize(new Dimension(600, 400));
