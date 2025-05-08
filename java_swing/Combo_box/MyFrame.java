@@ -11,6 +11,12 @@ public class MyFrame extends JFrame implements ActionListener{
         escolhas.addActionListener(this);
         //para editar escohas
         //escolhas.setEditable(true);
+        //adicionar novo item
+        escolhas.addItem("novo item");
+        //lugar do item
+        escolhas.insertItemAt("top 1",0);//começa por 0
+        escolhas.setSelectedIndex(2);//onde fica localizado a opção qnd ainda nn foi escolhido
+        //sempre coloque no fim do código para realmente ficar localizado onde vc quer
         this.setLayout(new FlowLayout());
         this.setTitle("combo box");
         this.add(escolhas);
