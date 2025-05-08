@@ -13,6 +13,10 @@ public class MyFrame extends JFrame implements ActionListener{
         //escolhas.setEditable(true);
         //adicionar novo item
         escolhas.addItem("novo item");
+        //remover itens
+        //escolhas.removeItem("array 1");
+        //da para utilizar removeItemAt
+        //remove all exite ex escolhas.removeAllItens()
         //lugar do item
         escolhas.insertItemAt("top 1",0);//começa por 0
         escolhas.setSelectedIndex(2);//onde fica localizado a opção qnd ainda nn foi escolhido
