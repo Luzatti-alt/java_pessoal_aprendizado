@@ -20,7 +20,7 @@ public class Coder extends JFrame implements ComponentListener{
         int largura_atual = Coder.this.getWidth();
         int altura_atual = Coder.this.getHeight();
         terminal.setLocation(largura_atual, altura_atual);
-        terminal.setBounds(0+(altura_atual/3),altura_atual-(altura_atual/3),largura_atual-(altura_atual/3),altura_atual/3);
+        terminal.setBounds(0+(largura_atual/3),altura_atual-(altura_atual/3),largura_atual-(altura_atual/3),altura_atual/3);
         arquivos.setBounds(0,0,largura_atual/3, altura_atual);
         fundo.revalidate();
         fundo.repaint();
