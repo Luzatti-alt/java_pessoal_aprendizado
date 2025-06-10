@@ -20,61 +20,58 @@
       {
         "scope": "keyword.control",
         "settings": {
-          "foreground": "#A020F0"  // elementos como true new etc
+          "foreground": "#A020F0"
         }
       },
       {
         "scope": "support.class",
         "settings": {
-          "foreground": "#0cc5b6"  // classe
+          "foreground": "#0cc5b6"
         }
       },
       {
         "scope": "constant.language",
         "settings": {
-          "foreground": "#6bff7a"  // true false etc
+          "foreground": "#6bff7a"
         }
       },
       {
-        "scope": "entity.name.function.constructor",
+        "scope": [
+          "support.function",
+          "entity.name.function"
+        ],
         "settings": {
-          "foreground": "#24abff"  // constructor
-        }
-      },
-      {
-        "scope": "support.function",
-        "settings": {
-          "foreground": "#FFA500"  // funções
+          "foreground": "#8c00ff"
         }
       },
       {
         "scope": "entity.name.type.class",
         "settings": {
-          "foreground": "#fdff9c"  // buffered reader etc
+          "foreground": "#8ce8ff"
         }
       },
       {
         "scope": "entity.other.attribute-name",
         "settings": {
-          "foreground": "#1eff00"  // campos / atributos (ex: e.message)
+          "foreground": "#1eff00"
         }
       },
       {
         "scope": "variable.other.readwrite",
         "settings": {
-          "foreground": "#a0f5fa"  // variáveis comuns
+          "foreground": "#a0f5fa"
         }
       },
       {
         "scope": "variable.parameter",
         "settings": {
-          "foreground": "#1E90FF"  // parâmetros
+          "foreground": "#1E90FF"
         }
       },
       {
         "scope": "variable.language",
         "settings": {
-          "foreground": "#1E90FF"  // variáveis especiais como this, super
+          "foreground": "#1E90FF"
         }
       },
       {
@@ -88,32 +85,42 @@
           "meta.brace.curly"
         ],
         "settings": {
-          "foreground": "#00ffbb"
+          "foreground": "#276a58"
         }
       },
       {
         "scope": "constant.numeric",
         "settings": {
-          "foreground": "#9e69ff"  // números como width e height
+          "foreground": "#9e69ff"
         }
       },
       {
         "scope": "string",
         "settings": {
-          "foreground": "#00aeff"  // strings
+          "foreground": "#00aeff"
         }
       },
       {
-        "scope": [  // Coloquei essa regra por último para prioridade
+        "scope": [
           "keyword.control.import",
           "keyword.control.package.java",
           "meta.import.java",
           "storage.modifier.import",
-          "punctuation.separator.period.java",  // ponto entre pacotes
-          "punctuation.terminator.statement.java", // ponto e vírgula
-          "entity.name.type.package.java",  // nome do pacote
-          "wildcard.import.java"  // para o "*"
+          "punctuation.separator.period.java",
+          "punctuation.terminator.statement.java"
         ],
+        "settings": {
+          "foreground": "#00ff22"
+        }
+      },
+      {
+        "scope": "entity.name.type.package.java",
+        "settings": {
+          "foreground": "#fdff9c"
+        }
+      },
+      {
+        "scope": "wildcard.import.java",
         "settings": {
           "foreground": "#00ff22"
         }
@@ -121,10 +128,10 @@
     ]
   },
   "workbench.colorCustomizations": {
-    "editorLineNumber.foreground": "#05ff44",       // cor dos números da linha
-    "editorLineNumber.activeForeground": "#077322",  // cor do número da linha atual
-    "editorError.foreground": "#FF5555", // Cor do sublinhado de erro
-    "editorWarning.foreground": "#FFA500", // Cor de avisos
-    "editorInfo.foreground": "#00BFFF" // Cor de infos
+    "editorLineNumber.foreground": "#05ff44",
+    "editorLineNumber.activeForeground": "#077322",
+    "editorError.foreground": "#FF5555",
+    "editorWarning.foreground": "#FFA500",
+    "editorInfo.foreground": "#00BFFF"
   }
 }
