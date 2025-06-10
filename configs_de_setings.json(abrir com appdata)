@@ -26,7 +26,7 @@
       {
         "scope": "support.class",
         "settings": {
-          "foreground": "#FFD700"  // classe
+          "foreground": "#0cc5b6"  // classe
         }
       },
       {
@@ -50,7 +50,7 @@
       {
         "scope": "entity.name.type.class",
         "settings": {
-          "foreground": "#fdff9c"  // buffered reader strings etc
+          "foreground": "#fdff9c"  // buffered reader etc
         }
       },
       {
@@ -100,13 +100,31 @@
       {
         "scope": "string",
         "settings": {
-          "foreground": "#1e00ff"
+          "foreground": "#00aeff"  // strings
+        }
+      },
+      {
+        "scope": [  // Coloquei essa regra por último para prioridade
+          "keyword.control.import",
+          "keyword.control.package.java",
+          "meta.import.java",
+          "storage.modifier.import",
+          "punctuation.separator.period.java",  // ponto entre pacotes
+          "punctuation.terminator.statement.java", // ponto e vírgula
+          "entity.name.type.package.java",  // nome do pacote
+          "wildcard.import.java"  // para o "*"
+        ],
+        "settings": {
+          "foreground": "#00ff22"
         }
       }
     ]
   },
   "workbench.colorCustomizations": {
-    "editorLineNumber.foreground": "#05ff44",       // cor normal dos números da linha
-    "editorLineNumber.activeForeground": "#077322"  // cor do número da linha atual (onde está o cursor)
+    "editorLineNumber.foreground": "#05ff44",       // cor dos números da linha
+    "editorLineNumber.activeForeground": "#077322",  // cor do número da linha atual
+    "editorError.foreground": "#FF5555", // Cor do sublinhado de erro
+    "editorWarning.foreground": "#FFA500", // Cor de avisos
+    "editorInfo.foreground": "#00BFFF" // Cor de infos
   }
 }
