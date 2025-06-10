@@ -1,0 +1,106 @@
+{
+  "files.autoSave": "onWindowChange",
+  "editor.fontSize": 22,
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "remoteHub.commitDirectlyWarning": "off",
+  "redhat.telemetry.enabled": true,
+  "workbench.colorTheme": "Abyss",
+  "editor.fontFamily": "Monocraft nerd font",
+  "terminal.integrated.fontFamily": "monospace",
+  "workbench.preferredDarkColorTheme": "Delphi+ (Twilight)",
+  "workbench.iconTheme": "material-icon-theme",
+  "zenMode.hideActivityBar": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "window.newWindowDimensions": "fullscreen",
+  "window.newWindowProfile": "Default",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.control",
+        "settings": {
+          "foreground": "#A020F0"  // elementos como true new etc
+        }
+      },
+      {
+        "scope": "support.class",
+        "settings": {
+          "foreground": "#FFD700"  // classe
+        }
+      },
+      {
+        "scope": "constant.language",
+        "settings": {
+          "foreground": "#6bff7a"  // true false etc
+        }
+      },
+      {
+        "scope": "entity.name.function.constructor",
+        "settings": {
+          "foreground": "#24abff"  // constructor
+        }
+      },
+      {
+        "scope": "support.function",
+        "settings": {
+          "foreground": "#FFA500"  // funções
+        }
+      },
+      {
+        "scope": "entity.name.type.class",
+        "settings": {
+          "foreground": "#fdff9c"  // buffered reader strings etc
+        }
+      },
+      {
+        "scope": "entity.other.attribute-name",
+        "settings": {
+          "foreground": "#1eff00"  // campos / atributos (ex: e.message)
+        }
+      },
+      {
+        "scope": "variable.other.readwrite",
+        "settings": {
+          "foreground": "#a0f5fa"  // variáveis comuns
+        }
+      },
+      {
+        "scope": "variable.parameter",
+        "settings": {
+          "foreground": "#1E90FF"  // parâmetros
+        }
+      },
+      {
+        "scope": "variable.language",
+        "settings": {
+          "foreground": "#1E90FF"  // variáveis especiais como this, super
+        }
+      },
+      {
+        "scope": [
+          "punctuation.section.block.begin",
+          "punctuation.section.block.end",
+          "punctuation.definition.parameters.begin",
+          "punctuation.definition.parameters.end",
+          "meta.brace.square",
+          "meta.brace.round",
+          "meta.brace.curly"
+        ],
+        "settings": {
+          "foreground": "#00ffbb"
+        }
+      },
+      {
+        "scope": "constant.numeric",
+        "settings": {
+          "foreground": "#9e69ff"  // números como width e height
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#05ff44",       // cor normal dos números da linha
+    "editorLineNumber.activeForeground": "#077322"  // cor do número da linha atual (onde está o cursor)
+  }
+}
