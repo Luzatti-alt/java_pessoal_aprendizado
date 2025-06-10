@@ -96,6 +96,12 @@
         "settings": {
           "foreground": "#9e69ff"  // números como width e height
         }
+      },
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#1e00ff"
+        }
       }
     ]
   },
