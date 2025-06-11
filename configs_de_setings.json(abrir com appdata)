@@ -97,7 +97,7 @@
       {
         "scope": "string",
         "settings": {
-          "foreground": "#00aeff"
+          "foreground": "#ffffff"//string
         }
       },
       {
