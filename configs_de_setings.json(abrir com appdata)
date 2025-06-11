@@ -5,7 +5,7 @@
   "explorer.confirmDragAndDrop": false,
   "remoteHub.commitDirectlyWarning": "off",
   "redhat.telemetry.enabled": true,
-  "workbench.colorTheme": "Abyss",
+  "workbench.colorTheme": "Delphi+ (Twilight)",
   "editor.fontFamily": "Monocraft nerd font",
   "terminal.integrated.fontFamily": "monospace",
   "workbench.preferredDarkColorTheme": "Delphi+ (Twilight)",
@@ -18,23 +18,23 @@
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": "keyword.control",
-        "settings": {
-          "foreground": "#A020F0"//new ect
-        }
-      },
-      {
-        "scope": "support.class",
-        "settings": {
-          "foreground": "#0cc5b6"
-        }
-      },
-      {
-        "scope": "constant.language",
-        "settings": {
-          "foreground": "#6bff7a"//true
-        }
-      },
+  "scope": "keyword.control",
+  "settings": {
+    "foreground": "#A020F0"
+  }
+},
+{
+  "scope": "keyword.type",
+  "settings": {
+    "foreground": "#FF4500"
+  }
+},
+{
+  "scope": "constant.language",
+  "settings": {
+    "foreground": "#6bff7a"
+  }
+},
       {
         "scope": [
           "support.function",
@@ -102,8 +102,6 @@
       },
       {
         "scope": [
-          "keyword.control.import",
-          "keyword.control.package.java",
           "meta.import.java",
           "storage.modifier.import",
           "punctuation.separator.period.java",
