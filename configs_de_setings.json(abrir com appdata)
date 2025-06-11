@@ -20,7 +20,7 @@
       {
         "scope": "keyword.control",
         "settings": {
-          "foreground": "#A020F0"
+          "foreground": "#A020F0"//new ect
         }
       },
       {
@@ -32,7 +32,7 @@
       {
         "scope": "constant.language",
         "settings": {
-          "foreground": "#6bff7a"
+          "foreground": "#6bff7a"//true
         }
       },
       {
@@ -47,7 +47,7 @@
       {
         "scope": "entity.name.type.class",
         "settings": {
-          "foreground": "#8ce8ff"
+          "foreground": "#2fd9ff"//system etc
         }
       },
       {
@@ -59,7 +59,7 @@
       {
         "scope": "variable.other.readwrite",
         "settings": {
-          "foreground": "#a0f5fa"
+          "foreground": "#d719a1"//nome de
         }
       },
       {
@@ -91,7 +91,7 @@
       {
         "scope": "constant.numeric",
         "settings": {
-          "foreground": "#9e69ff"
+          "foreground": "#0099ff"//valores armazenados nums
         }
       },
       {
